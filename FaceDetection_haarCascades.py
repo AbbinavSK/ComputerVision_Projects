@@ -5,7 +5,7 @@ import cv2 as cv
 # Reading Videos
 capture = cv.VideoCapture(0)
 
-haar_cascade = cv.CascadeClassifier('Open_CV\haar_face.xml')
+haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
 while True:
     isTrue, frame  = capture.read()
